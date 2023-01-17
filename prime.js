@@ -1,12 +1,13 @@
-let a=0;
-    for(let i=1; i<=num;i++){
+let num=3;
+let fc=0;
+    for(let i=1;i<=num;i++){
         if(num%i===0){
-            a++;
+            fc++;
         }
     }
-    if(a>1){
-        console.log("No");
+    if(fc==2){
+        console.log("Yes");
     }
     else{
-        console.log("Yes");
+        console.log("No");
     }
